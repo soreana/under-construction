@@ -1,0 +1,105 @@
+div.flip_clock_matte_white_1_medium_container div.clock_container{
+	float:right;
+	position:relative;
+}
+div.flip_clock_matte_white_1_medium_container div.day_container{
+	float:right;
+	position:relative;
+	margin-right:50px;
+}
+
+div.flip_clock_matte_white_1_medium_container div.clock_number_container{
+	width:64px;
+	height:99px;
+	
+	float:right;
+	margin:0 2px;
+	position:relative;
+	background:url(../images/matte_white_1_medium.png) -830px top no-repeat;
+	
+	-webkit-perspective:300px;
+	-moz-perspective:300px;
+	-ms-perspective:300px;
+	-o-perspective:300px;
+	perspective:300px;
+}
+
+/* Top */
+
+div.flip_clock_matte_white_1_medium_container div.clock_number_container div.clock_top_back{
+	width:64px;
+	height:49px;
+	
+	position:absolute;
+	top:0;
+	left:0;
+	
+	background:url(../images/matte_white_1_medium.png) left top no-repeat;
+}
+div.flip_clock_matte_white_1_medium_container div.clock_number_container div.clock_top_front{
+	width:64px;
+	height:49px;
+	
+	position:absolute;
+	top:0;
+	left:0;
+	
+	background:url(../images/matte_white_1_medium.png) left top no-repeat;
+	outline:1px solid transparent;
+}
+div.flip_clock_matte_white_1_medium_container div.clock_number_container div.clock_top_front div.clock_top_shadow{
+	position:absolute;
+	top:9px;
+	bottom:0px;
+	left:2px;
+	right:2px;
+	
+	background:rgba(0,0,0,1);
+	border-radius:3px 3px 0 0;
+}
+
+/* Bottom */
+
+div.flip_clock_matte_white_1_medium_container div.clock_number_container div.clock_bottom_back{
+	width:64px;
+	height:49px;
+	
+	position:absolute;
+	bottom:0;
+	left:0;
+
+	background:url(../images/matte_white_1_medium.png) left bottom no-repeat;
+}
+div.flip_clock_matte_white_1_medium_container div.clock_number_container div.clock_bottom_back div.clock_bottom_shadow{
+	position:absolute;
+	top:0px;
+	bottom:9px;
+	left:2px;
+	right:2px;
+	
+	background:rgba(0,0,0,1);
+	border-radius:0 0 3px 3px;
+}
+div.flip_clock_matte_white_1_medium_container div.clock_number_container div.clock_bottom_front{
+	width:64px;
+	height:49px;
+	
+	position:absolute;
+	bottom:0;
+	left:0;
+	
+	background:url(../images/matte_white_1_medium.png) left bottom no-repeat;
+	outline:1px solid transparent;
+}
+
+/* Other Options */
+
+div.flip_clock_matte_white_1_medium_container div.clock_dots{
+	width:31px;
+	height:99px;
+	
+	background:url(../images/matte_white_1_medium.png) -718px top no-repeat;
+
+	float:right;
+	position:relative;
+}

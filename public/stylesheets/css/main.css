@@ -1,0 +1,149 @@
+div.main_container{
+	direction:rtl;
+}
+div.main_container *{
+	font-family:yekan, "segoe ui", tahoma;
+}
+div.main_container div.divider{
+	height:25px;
+}
+
+/* Texts */
+div.main_container div.top_text{
+	color:#fff;
+	font-size:55px;
+	text-align:center;
+	text-shadow:0 0 6px #000;
+	
+	margin-bottom:45px;
+}
+div.main_container div.bottom_text{
+	color:#fff;
+	font-size:30px;
+	line-height:100px;
+	text-align:center;
+	text-shadow:0 0 4px #000;
+	
+	margin-top:50px;
+}
+
+/* Clock */
+div.main_container div.clock_block{
+	overflow:hidden;
+	text-align:center;
+	margin-top:25px;
+}
+div.main_container div.clock_block div.clock_parent{
+	display:inline-block;
+	padding:50px 30px 30px 30px;
+	
+	background:rgba(0,0,0,0.3);
+	box-shadow:0 3px 4px rgba(0,0,0,0.3) inset;
+	border-radius:10px;
+	border:1px solid #232323;
+}
+div.main_container div.clock_block div.clock_parent div.clock_texts{
+	position:absolute;
+	top:20px;
+	right:30px;
+	left:30px;
+}
+div.main_container div.clock_block div.clock_parent div.clock_texts div{
+	float:right;
+	
+	line-height:30px;
+	font-size:16px;
+	text-align:center;
+	color:#fff;
+}
+
+/* Subscribe */
+div.main_container div.subscribe_container{
+	text-align:center;
+	margin-top:25px;
+}
+div.main_container div.subscribe_container div.subscribe{
+	width:400px;
+	height:50px;
+	display:inline-block;
+	
+	background:rgba(0,0,0,0.3);
+	box-shadow:0 2px 3px rgba(0,0,0,0.3) inset;
+	border-radius:5px;
+	border:1px solid #222;
+}
+div.main_container div.subscribe_container div.subscribe input.textbox{
+	width:268px;
+	height:34px;
+	
+	float:left;
+	margin:8px 0 8px 8px;
+	padding:0 10px;
+	
+	border:none;
+	border-radius:3px 0 0 3px;
+	background:#fff;
+	box-shadow:0 3px 4px rgba(0,0,0,0.2) inset;
+	
+	direction:ltr;
+	font-family:'segoe ui', tahoma;
+	
+	-webkit-transition:all 200ms;
+	-moz-transition:all 200ms;
+	-ms-transition:all 200ms;
+	-o-transition:all 200ms;
+	transition:all 200ms;
+}
+div.main_container div.subscribe_container div.subscribe input.textbox:hover, 
+div.main_container div.subscribe_container div.subscribe input.textbox:focus{
+	box-shadow:0 0 5px rgba(0,0,0,1) inset;
+}
+div.main_container div.subscribe_container div.subscribe input.textbox.disabled{
+	box-shadow:0 3px 4px rgba(0,0,0,0.2) inset;
+}
+div.main_container div.subscribe_container div.subscribe button{
+	width:90px;
+	height:34px;
+	
+	float:right;
+	margin:8px 8px 8px 0;
+	padding-bottom:2px;
+	
+	border-radius:0 3px 3px 0;
+	cursor:pointer;
+	
+	color:#fff;
+	font-size:14px;
+	text-shadow:1px 1px 0 rgba(0,0,0,0.3);
+}
+div.main_container div.subscribe_container div.subscribe button.disabled{
+	cursor:default;
+}
+
+/* Messages */
+div.main_container div.subscribe_container div.subscribe div.message{
+	height:40px;
+	overflow:hidden;
+	
+	position:absolute;
+	bottom:-40px;
+	right:0;
+	left:0;
+	
+	font-size:14px;
+	text-align:center;
+	line-height:50px;
+	color:#fff;
+}
+div.main_container div.subscribe_container div.subscribe div.message.success{
+	color:#00af00;
+}
+div.main_container div.subscribe_container div.subscribe div.message.notice{
+	color:#e80;
+}
+div.main_container div.subscribe_container div.subscribe div.message.error{
+	color:#e51d1d;
+}
+div.main_container div.subscribe_container div.subscribe div.message.sending{
+	background:url(/assets/images/sending_email.gif) center 25px no-repeat;
+}
